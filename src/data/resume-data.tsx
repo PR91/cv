@@ -13,7 +13,7 @@ export const RESUME_DATA = {
       Full Stack Engineer currently focusing on front-end technologies like
       React, and React Native. Backend engineer in another life with some Nginx,
       PHP, MySQL and Linux Experience. Dabbled with Docker, Node.js and GraphQL
-      to look like the cool kids.
+      to look like the cool kids. Wannabe UI/UX designer.
     </>
   ),
   avatarUrl: "/cv_pic.webp",
