@@ -68,6 +68,12 @@ export default function ResumePage() {
           <Skills skills={RESUME_DATA.skills} />
 
           <OPitProjects projects={RESUME_DATA.projects} />
+          <div className="flex w-full justify-center gap-1 text-xs text-gray-500 ">
+            CV Template by
+            <a href="https://github.com/BartoszJarocki" className="underline">
+              Bartosz Jarocki
+            </a>
+          </div>
         </div>
       </section>
 
