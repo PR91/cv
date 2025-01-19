@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   location: "Porto, Portugal, UTC",
   locationLink: "https://www.google.com/maps/place/Porto",
   about:
-    "Full Stack Enginner who loves to learn new things, ocasionally builds some stuff with them.",
+    "Full Stack Engineer who loves to learn new things, occasionally builds some stuff with them.",
   summary: (
     <>
       Full Stack Engineer currently focusing on front-end technologies like
@@ -83,9 +83,9 @@ export const RESUME_DATA = {
             </li>
             <li>
               O-PitApp, a mobile app that retired pen and paper for the field
-              opperators by allowing them to digitally register field
-              measurements of various parameters required to propperly follow
-              and improve the blast design.
+              operators by allowing them to digitally register field
+              measurements of various parameters required to properly follow and
+              improve the blast design.
             </li>
             <li>
               O-PitAnalytics, a web dashboard that allows for an easy overview
@@ -109,9 +109,9 @@ export const RESUME_DATA = {
         <>
           IT Intern if the presidential services of Instituto Politécnico do
           Porto. As an intern I did what no one else wanted to do, it included
-          serving coffee, formating and configuring computers for the new hires,
-          and most importantly, updating JAVA so Public Servants could use work
-          time to do their taxes.
+          serving coffee, formatting and configuring computers for the new
+          hires, and most importantly, updating JAVA so Public Servants could
+          use work time to do their taxes.
         </>
       ),
     },
@@ -169,7 +169,7 @@ export const RESUME_DATA = {
       title: "O-PitAnalytics",
       techStack: ["PHP", "MYSQL", "HTML", "CSS", "Javascript"],
       description:
-        "A web dashboard that displays usefull information regarding the drill and blast opperation in real time.",
+        "A web dashboard that displays useful information regarding the drill and blast opperation in real time.",
       logo: null,
       link: {
         label: "O-PitAnalytics",
@@ -180,7 +180,7 @@ export const RESUME_DATA = {
       title: "O-PitCloud",
       techStack: ["Nginx", "PHP", "MYSQL", "Linux", "SysOps"],
       description:
-        "The glue that holds all the other products together. I mainly mantain the server environment, occasionaly write some PHP.",
+        "The glue that holds all the other products together. I mainly mantain the server environment, occasionally write some PHP.",
       logo: null,
       link: {
         label: "O-PitCloud",
