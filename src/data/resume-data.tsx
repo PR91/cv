@@ -71,15 +71,15 @@ export const RESUME_DATA = {
         <>
           Full Stack Developer at O-Pitblast, a company that develops software
           solutions to be used in the mining sector. Not Bitcoin mining, real
-          mining. Across the years, O-Pitblast gave the opportunity to work with
-          in a lot of different projects with a vastly different tech stacks,
-          most notably:
+          mining. Across the years, O-Pitblast gave the opportunity to work on a
+          lot of different projects with vastly different tech stacks, most
+          notably:
           <div className="h-2" />
           <ul className="list-inside list-disc">
             <li>
               O-PitDev, a borehole measurement device that revolutionized the
               mining industry bringing a ease of use, price point and business
-              model never before seen, and often imitated.
+              model never before seen and often imitated.
             </li>
             <li>
               O-PitApp, a mobile app that retired pen and paper for the field
@@ -136,7 +136,7 @@ export const RESUME_DATA = {
       title: "O-PitSurface",
       techStack: ["C#"],
       description:
-        "O-Pitblast's Hero Product, a Blast Design Software around which everything else was built. I handled most of the integrations with other products through DLL development.",
+        "O-Pitblast's Hero Product, a Blast Design Software around which everything else was built. I handled most of the integrations with external products through DLL development.",
       logo: null,
       link: {
         label: "O-PitSurface",
