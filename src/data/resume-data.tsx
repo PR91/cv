@@ -169,7 +169,7 @@ export const RESUME_DATA = {
       title: "O-PitAnalytics",
       techStack: ["PHP", "MYSQL", "HTML", "CSS", "Javascript"],
       description:
-        "A web dashboard that displays usefull information regarding for the drill and blast opperation in real time.",
+        "A web dashboard that displays usefull information regarding the drill and blast opperation in real time.",
       logo: null,
       link: {
         label: "O-PitAnalytics",
