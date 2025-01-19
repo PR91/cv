@@ -158,7 +158,7 @@ export const RESUME_DATA = {
       title: "O-PitApp",
       techStack: ["JAVA"],
       description:
-        "An Android application developed for field opperators to register measurements of various parameters required to propperly follow and improve the blast design.",
+        "An Android application developed for field operators to register measurements of various parameters required to properly follow and improve the blast design.",
       logo: null,
       link: {
         label: "O-PitApp",
@@ -180,7 +180,7 @@ export const RESUME_DATA = {
       title: "O-PitCloud",
       techStack: ["Nginx", "PHP", "MYSQL", "Linux", "SysOps"],
       description:
-        "The glue that holds all the other products together. I mainly mantain the server environment, occasionally write some PHP.",
+        "The glue that holds all the other products together. I mainly maintain the server environment, occasionally write some PHP.",
       logo: null,
       link: {
         label: "O-PitCloud",
