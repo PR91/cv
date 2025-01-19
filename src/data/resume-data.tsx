@@ -139,8 +139,8 @@ export const RESUME_DATA = {
         "The glue that holds all the other products together. I mainly mantain the server environment, occasionaly write some PHP.",
       logo: null,
       link: {
-        label: "Vipnordic App",
-        href: "https://play.google.com/store/apps/details?id=fi.forcit.consulting.vipnordic.vipnordic_mobile_app",
+        label: "O-PitCloud",
+        href: "",
       },
     },
     {
