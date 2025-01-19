@@ -1,241 +1,202 @@
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
+import { ConsultlyLogo, MonitoLogo, ParabolLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Pedro Brito",
+  initials: "PB",
+  location: "Porto, Portugal, UTC",
+  locationLink: "https://www.google.com/maps/place/Porto",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Full Stack Enginner who loves to learn new things, build some stuff with it.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Full stack engineer currently focusing on front-end technologies like
+      React, and React Native. Backend engineer in another life with some Nginx,
+      PHP, MySQL and Linux Experience. Dabbled with Docker and Node.js and
+      GraphQL to look like the cool kids.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "/cv_pic.webp",
+  personalWebsiteUrl: "https://cv.notagreat.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "pedrobrito14@gmail.com",
+    // tel: "+351919573183",
     social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
+      // {
+      //   name: "GitHub",
+      //   url: "https://github.com/BartoszJarocki",
+      //   icon: GitHubIcon,
+      // },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/pbritopt/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Instituto Superior de Engenharia do Porto",
+      degree: "Masters Degree in Electrical Engineering and Automation Systems",
+      start: "2014",
+      end: "¯\\_(ツ)_/¯",
+    },
+    {
+      school: "Instituto Superior de Engenharia do Porto",
+      degree:
+        "Bachelor's Degree in Electrical Engineering and Computer Science",
+      start: "2010",
+      end: "2014",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "O-Pitblast",
+      link: "https://o-pitblast.com",
       badges: [
-        "Remote",
+        "JAVA",
+        "C#",
+        "C++",
+        "PHP",
+        "Javascript",
         "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
+        "NodeJS",
+        "Flutter",
       ],
-      title: "Senior Full Stack Developer",
+      title: "Full Stack Developer",
+      logo: null,
+      start: "2017",
+      end: "Present",
+      description: (
+        <>
+          Full Stack Developer at O-Pitblast, a company that develops software
+          solutions to be used in the mining sector. Not Bitcoin mining, real
+          mining. Across the years, O-Pitblast gave the opportunity to work with
+          in a lot of different projects with a vastly different tech stacks,
+          most notably:
+          <div className="h-2" />
+          <ul className="list-inside list-disc">
+            <li>
+              O-PitDev, a borehole measurement device that revolutionized the
+              mining industry bringing a ease of use, price point and business
+              model never before seen, and often imitated.
+            </li>
+            <li>
+              O-PitApp, a mobile app that retired pen and paper for the field
+              opperators by allowing them to digitally register field
+              measurements of various parameters required to propperly follow
+              and improve the blast design.
+            </li>
+            <li>
+              O-PitAnalytics, a web dashboard that allows for an easy overview
+              of the drill and blast opperation by providing various real time
+              data and visualizations.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Politécnico do Porto",
+      link: "https://www.ipp.pt/",
+      badges: ["SCCM", "IT Onboarding", "Updating Java"],
+
+      title: "IT Intern",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2016",
+      end: "2017",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
+          IT Intern if the presidential services of Instituto Politécnico do
+          Porto. As an intern I did what no one else wanted to do, it included
+          serving coffee, formating and configuring computers for the new hires,
+          and most importantly, updating JAVA so Public Servants could use work
+          time to do their taxes.
         </>
       ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js",
     "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
+    "React Native",
+    "Flutter",
+    "C#",
+    "JAVA",
     "Node.js",
     "GraphQL",
-    "Relay",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Database Modeling",
     "System Architecture",
-    "Remote Team Leadership",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "O-PitCloud",
+      techStack: ["Nginx", "PHP", "MYSQL", "Linux", "SysOps"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
+        "The glue that holds all the other products together. I mainly mantain the server environment, occasionaly write some PHP.",
+      logo: null,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Vipnordic App",
+        href: "https://play.google.com/store/apps/details?id=fi.forcit.consulting.vipnordic.vipnordic_mobile_app",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "O-PitDev",
+      techStack: ["C++", "JAVA", "PHP", "MYSQL"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+        "Borehole measurement device, companion android application and backend for licence management.",
+      logo: null,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "O-PitDev",
+        href: "https://www.o-pitblast.com/products/o-pitdev-borehole-deviation-measurement",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "O-PitApp",
+      techStack: ["JAVA"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
+        "An Android application developed for field opperators to register measurements of various parameters required to propperly follow and improve the blast design.",
+      logo: null,
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "O-PitApp",
+        href: "https://www.o-pitblast.com/products/o-pitapp",
       },
     },
+    {
+      title: "O-PitAnalytics",
+      techStack: ["PHP", "MYSQL", "HTML", "CSS", "Javascript"],
+      description:
+        "A web dashboard that displays usefull information regarding for the drill and blast opperation in real time.",
+      logo: null,
+      link: {
+        label: "O-PitAnalytics",
+        href: "https://www.o-pitblast.com/products/analytics",
+      },
+    },
+    {
+      title: "Vipnordic App",
+      techStack: ["Flutter", "Dart"],
+      description:
+        "A Flutter multiplatform mobile application that brings the Vipnordic service to mobile devices. Available on Google Play and App Store.",
+      logo: null,
+      link: {
+        label: "Vipnordic App",
+        href: "https://play.google.com/store/apps/details?id=fi.forcit.consulting.vipnordic.vipnordic_mobile_app",
+      },
+    },
+    // {
+    //   title: "4Globe",
+    //   techStack: ["React"],
+    //   description:
+    //     "The next generation of ",
+    //   logo: null,
+    //   link: {
+    //     label: "Vipnordic App",
+    //     href: null,
+    //   },
+    // },
   ],
 } as const;
