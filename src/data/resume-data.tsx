@@ -133,14 +133,14 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "O-PitCloud",
-      techStack: ["Nginx", "PHP", "MYSQL", "Linux", "SysOps"],
+      title: "O-PitSurface",
+      techStack: ["C#"],
       description:
-        "The glue that holds all the other products together. I mainly mantain the server environment, occasionaly write some PHP.",
+        "O-Pitblast's Hero Product, a Blast Design Software around which everything else was built. I handled most of the integrations with other products through DLL development.",
       logo: null,
       link: {
-        label: "O-PitCloud",
-        href: "",
+        label: "O-PitSurface",
+        href: "https://www.o-pitblast.com/products/o-pitsurface-drill-blast-design-software",
       },
     },
     {
@@ -174,6 +174,17 @@ export const RESUME_DATA = {
       link: {
         label: "O-PitAnalytics",
         href: "https://www.o-pitblast.com/products/analytics",
+      },
+    },
+    {
+      title: "O-PitCloud",
+      techStack: ["Nginx", "PHP", "MYSQL", "Linux", "SysOps"],
+      description:
+        "The glue that holds all the other products together. I mainly mantain the server environment, occasionaly write some PHP.",
+      logo: null,
+      link: {
+        label: "O-PitCloud",
+        href: "",
       },
     },
     {
