@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   location: "Porto, Portugal, UTC",
   locationLink: "https://www.google.com/maps/place/Porto",
   about:
-    "Full Stack Enginner who loves to learn new things, build some stuff with it.",
+    "Full Stack Enginner who loves to learn new things, build some stuff with them.",
   summary: (
     <>
       Full stack engineer currently focusing on front-end technologies like
