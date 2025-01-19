@@ -10,7 +10,7 @@ export const RESUME_DATA = {
     "Full Stack Enginner who loves to learn new things, build some stuff with them.",
   summary: (
     <>
-      Full stack engineer currently focusing on front-end technologies like
+      Full Stack Engineer currently focusing on front-end technologies like
       React, and React Native. Backend engineer in another life with some Nginx,
       PHP, MySQL and Linux Experience. Dabbled with Docker, Node.js and GraphQL
       to look like the cool kids.
