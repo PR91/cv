@@ -20,7 +20,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://cv.notagreat.dev",
   contact: {
     email: "pedrobrito14@gmail.com",
-    // tel: "+351919573183",
+    tel: null,
     social: [
       // {
       //   name: "GitHub",
