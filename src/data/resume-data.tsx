@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   location: "Porto, Portugal, UTC",
   locationLink: "https://www.google.com/maps/place/Porto",
   about:
-    "Full Stack Enginner who loves to learn new things, build some stuff with them.",
+    "Full Stack Enginner who loves to learn new things, ocasionally builds some stuff with them.",
   summary: (
     <>
       Full Stack Engineer currently focusing on front-end technologies like
@@ -54,13 +54,13 @@ export const RESUME_DATA = {
       company: "O-Pitblast",
       link: "https://o-pitblast.com",
       badges: [
+        "React",
+        "Javascript",
+        "NodeJS",
         "JAVA",
+        "PHP",
         "C#",
         "C++",
-        "PHP",
-        "Javascript",
-        "React",
-        "NodeJS",
         "Flutter",
       ],
       title: "Full Stack Developer",
@@ -99,7 +99,7 @@ export const RESUME_DATA = {
     {
       company: "Politécnico do Porto",
       link: "https://www.ipp.pt/",
-      badges: ["SCCM", "IT Onboarding", "Updating Java"],
+      badges: ["Updating Java", "IT Onboarding", "SCCM"],
 
       title: "IT Intern",
       logo: ParabolLogo,
