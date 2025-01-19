@@ -22,11 +22,11 @@ export const RESUME_DATA = {
     email: "pedrobrito14@gmail.com",
     tel: null,
     social: [
-      // {
-      //   name: "GitHub",
-      //   url: "https://github.com/BartoszJarocki",
-      //   icon: GitHubIcon,
-      // },
+      {
+        name: "GitHub",
+        url: "https://github.com/PR91",
+        icon: GitHubIcon,
+      },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/pbritopt/",
