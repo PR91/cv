@@ -12,8 +12,8 @@ export const RESUME_DATA = {
     <>
       Full stack engineer currently focusing on front-end technologies like
       React, and React Native. Backend engineer in another life with some Nginx,
-      PHP, MySQL and Linux Experience. Dabbled with Docker and Node.js and
-      GraphQL to look like the cool kids.
+      PHP, MySQL and Linux Experience. Dabbled with Docker, Node.js and GraphQL
+      to look like the cool kids.
     </>
   ),
   avatarUrl: "/cv_pic.webp",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       description: (
         <>
           Full Stack Developer at O-Pitblast, a company that develops software
-          solutions to be used in the mining sector. Not Bitcoin mining, real
+          solutions to be used in the mining sector. Not the crypto type, real
           mining. Across the years, O-Pitblast gave the opportunity to work on a
           lot of different projects with vastly different tech stacks, most
           notably:
