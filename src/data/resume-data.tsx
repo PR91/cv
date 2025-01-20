@@ -177,6 +177,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "My O-Pitblast",
+      techStack: ["React", "Next.js"],
+      description:
+        "Admin dashboard for the new O-PitIAM system. Primarily allows the sales team to manage users and their licences. A similar fork exists for the legacy O-PitSurface system.",
+      logo: null,
+      link: {
+        label: "My O-Pitblast",
+        href: "https://my.o-pitblast.com",
+      },
+    },
+    {
       title: "O-PitCloud",
       techStack: ["Nginx", "PHP", "MYSQL", "Linux", "SysOps"],
       description:
