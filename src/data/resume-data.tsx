@@ -107,7 +107,7 @@ export const RESUME_DATA = {
       end: "2017",
       description: (
         <>
-          IT Intern if the presidential services of Instituto Politécnico do
+          IT Intern at the Presidential Services of Instituto Politécnico do
           Porto. As an intern I did what no one else wanted to do, it included
           serving coffee, formatting and configuring computers for the new
           hires, and most importantly, updating JAVA so Public Servants could
